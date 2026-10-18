@@ -1,7 +1,7 @@
 {
   "binance": {
-    "apiKey": "",
-    "apiSecret": "",
+    "apiKey": "FObMHDkhM3Bd7bq3R4dRS04hP835leQ260fLpAyR40WdxxZPzxncEsj0csbAdfSg",
+    "apiSecret": "31mjwb5wCtadIIw8Yl3Mv8jRiQf4MektKyUJz3qRuhXqWJXQJvbksW3eHBWVQlOv",
     "mode": "testnet",
     "urls": {
       "testnet": "https://testnet.binancefuture.com",
