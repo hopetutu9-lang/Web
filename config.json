@@ -1,0 +1,34 @@
+{
+  "binance": {
+    "apiKey": "",
+    "apiSecret": "",
+    "mode": "testnet",
+    "urls": {
+      "testnet": "https://testnet.binancefuture.com",
+      "mainnet": "https://fapi.binance.com"
+    },
+    "websocketUrls": {
+      "testnet": "wss://stream.binancefuture.com/stream",
+      "mainnet": "wss://fstream.binance.com/stream"
+    }
+  },
+  "admin": {
+    "email": ""
+  },
+  "risk": {
+    "riskPercent": 0.5,
+    "maxOpenTrades": 2,
+    "leverage": 3,
+    "riskReward": 3,
+    "maxDailyLoss": 2,
+    "maxDailyTrades": 5
+  },
+  "trading": {
+    "enabled": false,
+    "scanIntervalSeconds": 60,
+    "minSignalScore": 70,
+    "moveStopToBreakEvenAfterTp1": false,
+    "pairs": ["BTCUSDT", "ETHUSDT", "BNBUSDT", "SOLUSDT", "XRPUSDT"],
+    "timeframes": ["15m", "1h", "4h"]
+  }
+}

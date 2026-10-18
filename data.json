@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "users": [],
+  "sessions": [],
+  "trades": [],
+  "signals": [],
+  "logs": [],
+  "bot": {
+    "running": false,
+    "workerStatus": "stopped",
+    "websocketStatus": "DISCONNECTED",
+    "lastMarketScan": null,
+    "lastSignal": null,
+    "lastBalanceFetch": null,
+    "lastExecution": null,
+    "lastError": null
+  }
+}
